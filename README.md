@@ -1,8 +1,7 @@
 # Terminal
 
-====================================
 ## Navigation
-====================================
+
 Open current directory in VS Code
 ctrl + ~
 
@@ -21,9 +20,8 @@ $ touch [filename]
 crtl+L: clear terminal
 ctrl+C: cancel running
 
-====================================
 ## Git/GitHub
-====================================
+
 Git workflow
 during project useage
 
@@ -84,9 +82,9 @@ Ref:
 https://github.github.com/training-kit/downloads/github-git-cheat-sheet/
 
 
-====================================
+
 ## Node/NPM
-====================================
+
 Node:
 $ node --version
 
@@ -103,9 +101,8 @@ $ nvm install <version>
 
 Install nvm: https://github.com/coreybutler/nvm-windows
 
-====================================
 ## Python/pip
-====================================
+
 Python
 $ python -V
 
@@ -117,7 +114,7 @@ $ pip list
 pip package requirements & install
 https://note.nkmk.me/en/python-pip-install-requirements/
 
-======
+
 venv - virtual environment
   create a local environemnt (called env in current folder)
 $ py -m venv env
@@ -127,13 +124,15 @@ $ env\Scripts\activate
   Select your new environment by using the Python: Select Interpreter command from the Command Palette.
 $ deactivate
 
+NOTE: setting the project interpreter to the venv, it will be auto activated
+
   select pylint
 
 https://code.visualstudio.com/docs/python/environments
 
-====================================
+
 ## Django
-====================================
+
 
 Run Django dev server
 $ python manage.py runserver
@@ -157,9 +156,9 @@ $ pip install Django
 Check Version
 $ python -m django --version
 
-====================================
+
 ## Flask
-====================================
+
 
 Run the app
 $ flask run
@@ -181,14 +180,14 @@ Flask-session
 > pip install Flask-Session
 https://flask-session.readthedocs.io/en/latest/
 
-====================================
+
 ## Firebase
-====================================
+
   Need to relearn
 
-====================================
+
 ## Sass/scss
-====================================
+
 
 npm install -g sass
 sass --version
@@ -201,9 +200,9 @@ $ sass --watch style.scss:style.css
 Watch folders
 $ sass --watch app/style.scss:dist/style.css
 
-====================================
+
 ## Other
-====================================
+
 
 gulp (global)
 $ gulp --version

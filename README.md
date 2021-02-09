@@ -124,7 +124,7 @@ $ py -m venv env
 
   activate the environment
 $ env\Scripts\activate 
-  # Select your new environment by using the Python: Select Interpreter command from the Command Palette.
+  Select your new environment by using the Python: Select Interpreter command from the Command Palette.
 $ deactivate
 
   select pylint

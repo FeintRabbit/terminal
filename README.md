@@ -37,8 +37,9 @@ $ git push
 
 Branching
 $ git branch - view branches
-$ git checkout -b [brand name] - creates
-$ git checkout [branch name] - opens
+$ git branch -a  - view remote branches
+$ git checkout -b [branch name] - creates a branch
+$ git checkout [branch name] - opens an existing branch. Can be a remote branch.
 
 Merge
 $ git merge [branch] - merge branch into current branch
